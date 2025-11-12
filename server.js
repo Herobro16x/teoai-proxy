@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Hugging Face router endpoint (the correct one)
 const HF_ROUTER = "https://router.huggingface.co/hf-inference";
-const HF_API_KEY = process.env.HF_API_KEY;
+const HF_API_KEY = "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";
 
 // --- CORS setup ---
 app.use((req, res, next) => {
