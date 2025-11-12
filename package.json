@@ -1,15 +1,12 @@
 {
   "name": "teoai-proxy",
   "version": "1.0.0",
-  "description": "Proxy for TeoAI frontend to call Hugging Face Inference securely",
-  "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "node-fetch": "^3.3.2",
-    "cors": "^2.8.5"
+    "node-fetch": "^3.3.2"
   }
 }
